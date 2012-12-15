@@ -1,4 +1,4 @@
-var _ = require('underscore');
+var _ = require('lodash');
 
 /**
  * Decomposes a graph into strongly connected components and return them.
@@ -66,3 +66,4 @@ function stronglyConnectedComponents(graph) {
 }
 
 exports.stronglyConnectedComponents = stronglyConnectedComponents;
+
